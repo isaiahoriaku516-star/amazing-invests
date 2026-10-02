@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazing Invests</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#03151d;
+  color:white;
+  padding-bottom:85px;
+}
+
+.header{
+  height:60px;
+  background:#061f2b;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 18px;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.logo{
+  font-size:21px;
+  font-weight:bold;
+  color:#29d9f2;
+}
+
+.lang{
+  border:1px solid #12657a;
+  border-radius:25px;
+  padding:10px 15px;
+  color:#63e8f5;
+}
+
+.hero{
+  height:330px;
+  background:
+  linear-gradient(rgba(0,20,30,.25),rgba(0,15,25,.65)),
+  url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:flex-end;
+  padding:25px;
+}
+
+.hero h1{
+  font-size:32px;
+  margin-bottom:8px;
+}
+
+.hero p{
+  color:#b7d5dc;
+}
+
+.menu{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:5px;
+  padding:20px 8px;
+  background:#05212b;
+}
+
+.menu-item{
+  text-align:center;
+  font-size:12px;
+  color:#ddd;
+}
+
+.icon{
+  font-size:28px;
+  margin-bottom:6px;
+}
+
+.section{
+  padding:18px;
+}
+
+.section h2{
+  font-size:20px;
+  margin-bottom:15px;
+}
+
+.cards{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+}
+
+.card{
+  min-width:145px;
+  padding:18px;
+  border:1px solid #0c687c;
+  border-radius:15px;
+  background:#061d26;
+}
+
+.card h3{
+  color:#36d9ef;
+  margin-bottom:8px;
+}
+
+.card p{
+  color:#a8c4ca;
+  font-size:13px;
+}
+
+.buttons{
+  display:flex;
+  gap:10px;
+  overflow-x:auto;
+  padding-bottom:5px;
+}
+
+.btn{
+  white-space:nowrap;
+  padding:13px 20px;
+  border-radius:25px;
+  border:1px solid #16bcd5;
+  background:#071d27;
+  color:white;
+  font-weight:bold;
+}
+
+.btn.active{
+  background:#19c9e5;
+  color:#00212b;
+}
+
+.notice{
+  margin:18px;
+  padding:18px;
+  border-radius:15px;
+  background:#061e28;
+  border:1px solid #0b6173;
+}
+
+.notice h3{
+  color:#31d8ed;
+  margin-bottom:8px;
+}
+
+.bottom-nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:75px;
+  background:#031019;
+  border-top:1px solid #0b3e4
